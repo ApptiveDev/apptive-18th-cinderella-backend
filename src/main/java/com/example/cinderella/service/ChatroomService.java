@@ -41,4 +41,14 @@ public class ChatroomService {
         chat.update();
     }
 
+    /**
+     * chat에 dest 추가 : update 할 예정
+     */
+//    @Transactional
+//    public void updateDest(Long chatid, String dest) {
+//        Chat chat = chatRepository.findById(chatid)
+//                .orElseThrow(() -> new IllegalArgumentException("해당 id의 정보가 없습니다. chatid=" + chatid));
+//        chat.updateDest(dest);
+//    }
+
 }
